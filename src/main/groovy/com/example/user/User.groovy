@@ -6,4 +6,5 @@ class User {
     String name = 'Joe'
     String surname
     String email
+    Integer age
 }
