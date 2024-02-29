@@ -7,4 +7,12 @@ class User {
     String surname
     String email
     Integer age
+
+    User() {
+    }
+
+    User(String name, Integer age) {
+        this.name = name
+        this.age = age
+    }
 }
